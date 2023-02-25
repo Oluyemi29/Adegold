@@ -1,0 +1,406 @@
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(146, 130, 43);
+}
+.nav1{
+    background-color: rgb(241, 180, 160);
+    margin-bottom: 30px;
+}
+.navbar-brand img{
+    background-color: white;
+}
+.d-flex input{
+    width: 500px;
+}
+.nav-link{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    color: black;
+}
+.ca{
+    padding-left: -20px;
+}
+.ch{
+    width: 250px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fa-message{
+    float: left;
+    font-size: 30px;
+}
+.h .dropdown-item{
+    color: black;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ic{
+    margin-right: 40px;
+    font-size: 25px;
+}
+.ac{
+    margin-right: 12px;
+}
+.modal-body input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+}
+.pag1{
+    margin-top: 150px;
+}
+.log1{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 200px;
+    margin-bottom: 120px;
+}
+.pag1 .input1{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 440px;
+    margin-bottom: 30px;
+}
+.pag2 .input1{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 440px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.input2{
+    margin-top: 30px;
+}
+.forget1{
+margin-left: 280px;
+margin-top: -23px;
+}
+.forget1 a{
+    text-decoration: none;
+    color: blue
+}
+.blog{
+    width: 440px;
+    text-align: left;
+    height: 40px;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.slog{
+    margin-left: 150px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+}
+.fa-envelope{
+    color: white;
+    font-size: 20px;
+}
+
+.blog1{
+    width: 440px;
+    text-align: left;
+    height: 40px;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.slog1{
+    margin-left: 70px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+}
+.fa-facebook{
+    color: white;
+    font-size: 20px;
+}
+.blog21{
+    width: 440px;
+    text-align: left;
+    height: 40px;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.slog21{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+}
+.blog2{
+    width: 440px;
+    text-align: left;
+    height: 40px;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.slog2{
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+}
+.pag2{
+    margin-top: 150px;
+}
+.create{
+    margin-left: 80px;
+    font-size: 18px;
+    margin-bottom: 120px;
+}
+.blog21{
+    margin-left: 50px;
+}
+.blog2{
+    margin-left: 50px;
+}
+.fl{
+    padding-top: 40px;
+    margin-top: 40px;
+    background-color: rgb(39, 38, 38);
+    padding-bottom: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex2{
+    margin-top: 20px;
+}
+.gol{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+.inq{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.inqp{
+    color: white;
+}
+.ma1{
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin-left: -3px;
+}
+.app{
+    font-size: 14px;
+    color: white;
+}
+.papp{
+    color: white;
+    margin-top: -10px;
+    font-size: 14px;
+}
+.down1{
+    font-size: 10px;
+    color: white;
+    margin-left: 15px;
+}
+.down2{
+    font-size: 17px;
+    color: white;
+    margin-top: -5px;
+}
+.fa-apple{
+    font-size: 25px;
+}
+.down3{
+    font-size: 17px;
+    color: white;
+}
+.fa-twitter{
+    color: white;
+    font-size: 20px;
+}
+.fa-instagram-square{
+    color: white;
+    font-size: 20px;
+}
+.fa-facebook{
+    color: white;
+    font-size: 20px;
+}
+.fa-envelope{
+    color: white;
+    font-size: 20px;
+}
+.pag2 .log1{
+    margin-bottom: 20px;
+}
+.pag2 .create{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.d-flex .search-btn{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+
+
+@media (max-width: 500px) {
+    .pag1 .input1{
+        width: 80%;
+        height: 45px;
+    }
+    .pag2 .input1{
+        width: 80%;
+        height: 45px;
+    }
+    .pag2 .log1{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .blog{
+        width: 80%;
+        height: 40px;
+    }
+    .blog1{
+        width: 80%;
+        height: 40px;
+    }
+    .slog{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .slog1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .forget1{
+        margin-left: 185px;
+        font-size: 
+        14px;
+    }
+    section .sign-but{
+        padding-left: 70px;
+    }
+    .remem{
+        font-size: 14px;
+    }
+    .log1{
+        margin-left: -50px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .pag2 .create{
+        font-size: 14px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .pag2{
+        margin-left: -50px;
+    }
+    .blog21{
+        width: 80%;
+        height: 40px;
+    }
+    .blog2{
+        width: 80%;
+        height: 40px;
+
+    }
+    .blog2 .fa-facebook{
+        font-size: 15px;
+    }
+    .blog21 .fa-envelope{
+        font-size: 15px;
+    }
+    .slog2{
+        font-size: 13px;
+        margin-left: 5px;
+    }
+    .slog21{
+        font-size: 11px;
+        margin-left: 0px;
+    }
+    .flex1{
+        display: none;
+    }
+
+
+
+
+    .inq{
+        font-size: 16px;
+    }
+    .inqp{
+        font-size: 12px;
+    }
+    .ma1{
+        width: 30%;
+        padding-left: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        float: right;
+        margin-top: 10px;
+        margin-right: 70px;
+    }
+    .app{
+        font-size: 14px;
+    }
+    .down2{
+        font-size: 14px;
+    }
+    .down2 .fa-apple{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    .down3 .fa-google-play{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .down3{
+        font-size: 14px;
+    }
+    .cart .ca{
+        margin-left: -32px;
+    }
+    .d-flex{
+        width: 100%;
+    }
+    .help-cart li :last-child{
+        font-size: 12px;
+    }
+    .flex2{
+        width: 80%;
+        margin-right: 10px;
+    }
+    .flex3{
+        width: 80%;
+        margin-left: 10px;
+    }
+    .flex2 input{
+        width: 100%;
+    }
+    .ma1{
+        width: 40%;
+    }
+    .help-cart li :last-child{
+        font-size: 12px;
+    }
+}

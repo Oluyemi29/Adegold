@@ -1,0 +1,347 @@
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(146, 130, 43);
+}
+.nav1{
+    background-color: rgb(241, 180, 160);
+    margin-bottom: 30px;
+}
+.navbar-brand img{
+    background-color: white;
+}
+.d-flex input{
+    width: 500px;
+}
+.nav-link{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    color: black;
+}
+.ca{
+    padding-left: -20px;
+}
+.ch{
+    width: 250px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fa-message{
+    float: left;
+    font-size: 30px;
+}
+.h .dropdown-item{
+    color: black;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ic{
+    margin-right: 40px;
+    font-size: 25px;
+}
+.ac{
+    margin-right: 12px;
+}
+.modal-body input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+}
+.img-responsive{
+    margin-top: 140px;
+}
+.follow{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.simple{
+    margin-bottom: 50px;
+}
+.pri{
+    text-align: center;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.ade{
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    color: rgb(193, 62, 62);
+}
+.gold{
+    color: black;
+}
+.you{
+    margin-top: 10px;
+}
+.d-flex .search-btn{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.fl{
+    padding-top: 40px;
+    margin-top: 40px;
+    background-color: rgb(39, 38, 38);
+    padding-bottom: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex2{
+    margin-top: 20px;
+}
+.gol{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+.inq{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.inqp{
+    color: white;
+}
+.ma1{
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin-left: -3px;
+}
+.app{
+    font-size: 14px;
+    color: white;
+}
+.papp{
+    color: white;
+    margin-top: -10px;
+    font-size: 14px;
+}
+.down1{
+    font-size: 10px;
+    color: white;
+    margin-left: 15px;
+}
+.down2{
+    font-size: 17px;
+    color: white;
+    margin-top: -5px;
+}
+.fa-apple{
+    font-size: 25px;
+}
+.down3{
+    font-size: 17px;
+    color: white;
+}
+.fa-twitter{
+    color: white;
+    font-size: 20px;
+}
+.fa-instagram-square{
+    color: white;
+    font-size: 20px;
+}
+.fa-facebook{
+    color: white;
+    font-size: 20px;
+}
+.fa-envelope{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    .dropdown-menu{
+        width: 50%;
+    }
+    .dropdown-menu .ch{
+        width: 85%;
+        margin-left: 20px;
+    }
+    
+.contyear .ten{
+    font-size: 24px;
+}
+.contyear{
+    padding-left: 50px;
+}
+.auto-checkbox{
+    width: 100%;
+    height: 200px;
+}
+.Detol{
+    width: 92%;
+}
+.contcheck{
+    padding-left: 50px;
+}
+.inp{
+    width: 90%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.fa-magnifying-glass{
+
+    display: inline-block;
+    margin-left: -40px;
+}
+.gene .card{
+    width: 12rem;
+    height: 360px;
+}
+.p1{
+    font-size: 10px;
+    float: left;
+    padding: 2px 7px 2px 7px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.diff{
+    margin-top: -12px;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.p3{
+    margin-top: -10px;
+    padding-left: 60px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -140px;
+    margin-top: 10px;
+}
+.fa{
+    padding-left: 20px;
+    margin-top: -5px;
+}
+.fa .fa-solid{
+    font-size: 10px;
+}
+.coll{
+    font-size: 12px;
+    color: black;
+    font-style: italic;
+    float: left;
+}
+.old{
+    display: none;
+}
+.button-hidden{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.flex1{
+    display: none;
+}
+.inq{
+    font-size: 16px;
+}
+.inqp{
+    font-size: 12px;
+}
+.ma1{
+    width: 30%;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+.app{
+    font-size: 14px;
+}
+.down2{
+    font-size: 14px;
+}
+.down2 .fa-apple{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.down3 .fa-google-play{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.down3{
+    font-size: 14px;
+}
+.cart .ca{
+    margin-left: -32px;
+}
+.d-flex{
+    width: 100%;
+}
+.ten{
+    margin-top: 150px;
+}
+.help-cart li .dropdown-item{
+    font-size: 14px;
+}
+.follow{
+    font-size: 17px;
+}
+.simple .row .col h6{
+    font-size: 14px;
+}
+.pri a button{
+    font-size: 16px;
+}
+.ade{
+    font-size: 65px;
+}
+.you{
+    width: 80%;
+    margin-left: 50px;
+}
+
+.flex2{
+    width: 80%;
+    margin-right: 10px;
+}
+.flex3{
+    width: 80%;
+    margin-left: 10px;
+}
+.flex2 input{
+    width: 100%;
+}
+.ma1{
+    width: 40%;
+}
+.help-cart li :last-child{
+    font-size: 12px;
+}
+}

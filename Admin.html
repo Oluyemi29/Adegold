@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <style>
+        .add-btn{
+            width: 15%;
+            height: 45px;
+            font-size: 20px;
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+        }
+        .form{
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        .form .lat-up{
+            font-size: 35px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 20px;
+        }
+        .form label{
+            font-size: 20px;
+        }
+        .form input{
+            width: 70%;
+            height: 30px;
+            border: 2px solid black;
+            border-radius: 4px;
+            margin-bottom: 30px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .form-group{
+            width: 50%;
+            margin: auto;
+        }
+        .form button{
+            width: 70%;
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: blue;
+
+            color: white;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <center>
+        <button class="add-btn" onclick="latest()">Latest Update</button>
+        <button class="add-btn" onclick="whole()">Whole Product</button>
+        <button class="add-btn" onclick="discount()">Discount product</button>
+    </center>
+        <div style="display: none;" class="form-group" id="update">
+        <form class="form" action="Admin_pro.php" method="POST" enctype="multipart/form-data">
+        <h1 class="lat-up">Latest Update</h1>
+        <label for="name">Product Name:</label><br>
+        <input type="text" name="pname0" placeholder="Product Name" required><br>
+        <label for="image">Product image:</label><br>
+        <input type="file" name="pimage0" required><br>
+        <button type="submit" name="submit0">Upload Product</button>
+        </form>
+        </div>
+
+        <div style="display: none;" class="form-group" id="whole">
+        <form class="form" action="Admin_pro.php" method="POST" enctype="multipart/form-data">
+        <h1 class="lat-up">Whole Product</h1>
+        <label for="name">Product Name:</label><br>
+        <input type="text" name="pname1" placeholder="Product Name" required><br>
+        <label for="Discount">Discount price</label><br>
+        <input type="number" name="dprice1" placeholder="Discount price" required><br>
+        <label for="price">Product Price:</label><br>
+        <input type="text" name="price1" placeholder="Product Price" required><br>
+        <label for="image">Product image:</label><br>
+        <input type="file" name="pimage1" required><br>
+        <button type="submit" name="submit1">Upload Product</button>
+        </form>
+        </div>
+
+        <div style="display: none;" class="form-group" id="discount">
+        <form class="form" action="Admin_pro.php" method="POST" enctype="multipart/form-data">
+        <h1 class="lat-up">Discount Product</h1>
+        <label for="name">Product Name:</label><br>
+        <input type="text" name="pname2" placeholder="Product Name" required><br>
+        <label for="Discount">Discount price</label><br>
+        <input type="number" name="dprice2" placeholder="Discount price" required><br>
+        <label for="price">Product Price:</label><br>
+        <input type="text" name="price2" placeholder="Product Price" required><br>
+        <label for="image">Product image:</label><br>
+        <input type="file" name="pimage2"><br>
+        <button type="submit" name="submit2">Upload Product</button>
+        </form>
+        </div>
+    <script type="text/javascript">
+        
+                let upDate = document.getElementById("update")
+                let whoLe = document.getElementById("whole")
+                let discountEds = document.getElementById("discount")
+                let formEl = document.querySelector(".form-group")
+
+                function latest(){
+                if(formEl.style.display === "none" || formEl.style.display === "block"){
+                    upDate.style.display = 'block';
+                    whoLe.style.display = 'none';
+                    discountEds.style.display = 'none';
+                }}
+                function whole(){
+                if(formEl.style.display === "none" || formEl.style.display === "block"){
+                    upDate.style.display = 'none';
+                    whoLe.style.display = 'block';
+                    discountEds.style.display = 'none';
+                }}
+                function discount(){
+                if(formEl.style.display === "none" || formEl.style.display === "block"){
+                    upDate.style.display = 'none';
+                    whoLe.style.display = 'none';
+                    discountEds.style.display = 'block';
+                }}
+    </script>
+</body>
+</html>

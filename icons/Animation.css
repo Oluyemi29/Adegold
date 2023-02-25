@@ -1,0 +1,83 @@
+*{padding: 0;
+  margin: 0;}
+.Ani{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: Ani 5s infinite;
+    margin-left: 100px;
+}
+@keyframes Ani {
+    0%{background-color: aqua;
+         width: 150px;
+        height: 300px;}
+
+    20%{background-color: green;
+       width: 250px;
+       height: 250px;}
+
+    40%{background-color: brown;
+        width: 350px;
+        height: 400px;}
+
+    60%{background-color: coral;
+        width: 400px;
+        height: 500px;}
+
+    80%{background-color: red;
+        width: 250px;
+        height: 300px;}
+
+    100%{background-color: black;
+        width: 50px;
+        height: 50px;}
+}
+.sun{
+    text-align: center;
+    color: coral;
+    background-color: aqua;
+    padding: 20px 0px 20px 0px;
+}
+.body{background-image: url(N4.jpg);
+    background-size: cover;
+    height: 700px;
+    margin-top: -3px;
+    animation: back 15s infinite;
+}
+@keyframes back {
+    0%{background-image: url(N4.jpg);
+        background-size: cover;
+        height: 700px;
+        margin-top: -3px;
+        animation: back 7s infinite;}
+
+    20%{background-image: url(N3.png);
+        background-size: cover;
+        height: 700px;
+        margin-top: -3px;
+        animation: back 7s infinite;}
+
+    40%{background-image: url(N5.png);
+        background-size: cover;
+        height: 700px;
+        margin-top: -3px;
+        animation: back 7s infinite;}
+
+    60%{background-image: url(N1.jpg);
+        background-size: cover;
+        height: 700px;
+        margin-top: -3px;
+        animation: back 7s infinite;}
+    
+    80%{background-image: url(movie.jpg);
+        background-size: cover;
+        height: 700px;
+        margin-top: -3px;
+        animation: back 7s infinite;}
+
+    100%{background-image: url(N4.jpg);
+        background-size: cover;
+        height: 700px;
+        margin-top: -3px;
+        animation: back 7s infinite;}
+}
